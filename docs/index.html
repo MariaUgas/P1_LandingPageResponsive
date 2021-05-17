@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/podcast.css" />
+    <title>Landing page responsiva.</title>
+  </head>
+  <body>
+    <header>
+      <div id="header">
+        <div class="logo">
+          <img src="./img/logo.svg" alt="Logo" />
+        </div>
+        <input type="checkbox" id="chk-bars" />
+        <div class="menu-container">
+          <label for="chk-bars">
+            <i class="fas fa-bars bars"></i>
+            <i class="fas fa-times fastimes"></i>
+          </label>
+        </div>
+        <div class="menu-fade">
+          <ul class="menu-list">
+            <li>
+              <a class="active hover" href="#section-episode">Episodios</a>
+            </li>
+            <li><a class="active hover" href="#section-wwc">Nosotros</a></li>
+            <li>
+              <a class="active hover" href="#section-guest">Entrevistas</a>
+            </li>
+            <li><a class="active hover" href="#section-theme">Tópicos</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main id="main">
+      <section id="section-about">
+        <div class="about">
+          <div>
+            <h1>
+              Hello
+              <span class="txt-span">world</span> pale blue dot.
+            </h1>
+            <p>
+              El portal de podcasts que explora el mundo de la programación y la
+              tecnología. Nuevos episodios, todos los jueves cada 15 días.
+            </p>
+          </div>
+          <div class="btn-about"><a href="#section-wwc">CONOCÉ MÁS</a></div>
+        </div>
+      </section>
+      <section id="section-episode">
+        <div class="episode">
+          <div class="episode-container">
+            <h2 class="title-white">Episodios</h2>
+            <div class="episode-container-podcast">
+              <div class="episode-iframe">
+                <iframe
+                  src="https://open.spotify.com/embed/episode/7AZZy2nJ4R9ZndHW0h2yxt"
+                  height="230"
+                  width="100%"
+                  frameborder="0"
+                  allowtransparency="true"
+                  allow="encrypted-media"
+                ></iframe>
+              </div>
+              <div class="episode-iframe">
+                <iframe
+                  src="https://open.spotify.com/embed/episode/1ezdL2ivAGLwSE6Xbssxqt"
+                  height="230"
+                  width="100%"
+                  frameborder="0"
+                  allowtransparency="true"
+                  allow="encrypted-media"
+                ></iframe>
+              </div>
+              <div class="episode-iframe">
+                <iframe
+                  src="https://open.spotify.com/embed/episode/3cWta1iiQSfvrdHaCbLkSD"
+                  height="230"
+                  width="100%"
+                  frameborder="0"
+                  allowtransparency="true"
+                  allow="encrypted-media"
+                ></iframe>
+              </div>
+              <div class="episode-iframe">
+                <iframe
+                  src="https://open.spotify.com/embed/episode/31VyAQAwBiKoHVoYUCEzjQ"
+                  height="230"
+                  width="100%"
+                  frameborder="0"
+                  allowtransparency="true"
+                  allow="encrypted-media"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section-wwc">
+        <div class="container-wwc">
+          <div class="img-wwc"></div>
+          <div class="txt-wwc">
+            <h2 class="title-black">De dónde venimos</h2>
+            <p>
+              <!-- Our posturings, our imagined self-importance, the delusion that we
+              have some privileged position in the Universe, are challenged by
+              this point of pale light. Our planet is a lonely speck in the
+              great enveloping cosmic dark. In our obscurity, in all this
+              vastness, there is no hint that help will come from elsewhere to
+              save us from ourselves. -->
+              Nuestras posturas, nuestra imaginada autoimportancia, la ilusión
+              de que tenemos alguna posición privilegiada en el Universo, son
+              desafiadas por este punto de pálida luz. Nuestro planeta es una
+              mancha solitaria en la gran oscuridad cósmica envolvente. En
+              nuestra oscuridad, en toda esta inmensidad, no hay ningún indicio
+              de que la ayuda vendrá de otra parte para salvarnos de nosotros
+              mismos.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="section-guest">
+        <div class="container-guest">
+          <h2 class="title-black">Invitadas/os especiales</h2>
+          <div class="gallery">
+            <div class="size-img">
+              <img src="./img/grace-hopper.png" alt="img-grace-hopper" />
+            </div>
+            <div class="size-img">
+              <img src="./img/Katie-Bouman.png" alt="img-katie-bouman" />
+            </div>
+            <div class="size-img">
+              <img
+                src="./img/Margaret_Hamilton.png"
+                alt="img-margaret-hamilton"
+              />
+            </div>
+          </div>
+          <div class="gallery">
+            <div class="size-img">
+              <img
+                src="./img/E.R.A.Univac 1103_1950.png"
+                alt="img-era-univac"
+              />
+            </div>
+            <div class="size-img">
+              <img
+                src="./img/ComputerOperators_Eniac.png"
+                alt="img-computer-eniac"
+              />
+            </div>
+            <div class="size-img">
+              <img src="./img/susan-kare.png" alt="img-susan-karen" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section-theme">
+        <h2 class="title-black">Algunos de nuestros temas</h2>
+        <div class="container-theme">
+          <div class="icon-theme">
+            <div>
+              <img src="./img/icon1.svg" alt="icon1" />
+            </div>
+            <div>
+              <h3 class="title-icon">Trabajo Remoto</h3>
+            </div>
+          </div>
+          <div class="icon-theme">
+            <div><img src="./img/icon2.svg" alt="icon2" /></div>
+            <div>
+              <h3 class="title-icon">Repensando la programación</h3>
+            </div>
+          </div>
+          <div class="icon-theme">
+            <div><img src="./img/icon3.svg" alt="icon3" /></div>
+            <div>
+              <h3 class="title-icon">Bases del código</h3>
+            </div>
+          </div>
+          <div class="icon-theme">
+            <div>
+              <img src="./img/icon1.svg" alt="icon1" />
+            </div>
+            <div>
+              <h3 class="title-icon">Seguridad informática</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section-news">
+        <div class="news-container">
+          <div>
+            <h2 class="title-white txt-news">¿Querés las últimas novedades?</h2>
+          </div>
+          <div class="btn-about btn-news">
+            <a href="#section-episode">ESCUCHA LOS EPISODIOS</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="txt-footer">© 2019— Hello blue pale dot</div>
+        <div class="icon-footer txt-footer">
+          <i class="fab fa-spotify"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-telegram"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
