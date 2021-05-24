@@ -323,18 +323,6 @@ a {
     height: 500px;
     block-size: fit-content;
   }
-  /* .container-wwc .img-wwc::before {
-    content: " ";
-    background-image: url("./../img/phone2.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 480px;
-    width: 300px;
-    position: absolute;
-    z-index: 999;
-    left: 100px;
-    top: -120px;
-  } */
   .container-wwc .img-wwc::before {
     content: url("./../img/phone2.png");
     position: relative;
@@ -383,7 +371,6 @@ a {
     flex-direction: row;
   }
   .size-img {
-    width: 100%;
     display: inline-flex;
   }
 }
@@ -398,7 +385,6 @@ a {
   justify-content: center;
   align-items: center;
 }
-
 #section-theme .container-theme .icon-theme {
   display: flex;
   flex-direction: column;
@@ -447,23 +433,21 @@ a {
 }
 
 .btn-news {
-  width: 60%;
   position: relative;
-  margin: 0 auto;
-  margin-bottom: 4rem;
+  margin: 0 1.5rem 4rem 1.5rem;
 }
 
 @media only screen and (min-width: 400px) {
   .news-container {
     clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
   }
-
   .txt-news {
-    width: 100%;
     padding: 20% 12% 10% 12%;
   }
   .btn-news {
-    width: 25%;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 3rem;
   }
 }
 
@@ -474,45 +458,47 @@ a {
   justify-content: center;
   height: 15vh;
 }
-
 .txt-footer {
   position: relative;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
   font-family: IBM Plex Sans;
   font-size: 1rem;
   font-weight: 400;
   color: #060a24;
   width: 100%;
-}
-.footer-container > .txt-footer:first-child {
   padding-top: 1rem;
-  text-align: center;
 }
 .icon-footer {
   position: relative;
   margin: 0 auto;
-  text-align: right;
-  display: flex;
-  width: 60%;
-  justify-content: space-between;
-}
-.footer-container > .txt-footer:last-child {
-  padding: 1.5rem 0;
   text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.5rem 0;
 }
+
 @media only screen and (min-width: 400px) {
   .footer-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 5vh;
+    flex-direction: row;
+    width: 85%;
+    position: relative;
+    height: 7vh;
+    margin: 0 auto;
   }
   .txt-footer {
-    width: 50%;
-    padding: 1% 1%;
+    text-align: unset;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
   }
   .icon-footer {
-    width: 25%;
+    padding: 0;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .icon-footer > i {
+    padding-left: 1.5rem;
   }
 }
