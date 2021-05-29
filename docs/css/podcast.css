@@ -316,12 +316,9 @@ a {
     justify-content: center;
   }
   .container-wwc .img-wwc {
-    background-color: transparent;
-    width: auto;
     max-height: 500px;
     min-height: 500px;
     height: 500px;
-    block-size: fit-content;
   }
   .container-wwc .img-wwc::before {
     content: url("./../img/phone2.png");
