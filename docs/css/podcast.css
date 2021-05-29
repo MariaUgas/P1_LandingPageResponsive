@@ -498,7 +498,7 @@ a {
     align-items: center;
     justify-content: flex-end;
   }
-  .icon-footer > i {
+  .icon-footer > a {
     padding-left: 1.5rem;
   }
 }
